@@ -7,6 +7,7 @@
 """
 import click
 from flask import Flask
+import sqlalchemy as mssql
 
 app = Flask(__name__)
 
